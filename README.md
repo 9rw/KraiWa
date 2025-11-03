@@ -6,8 +6,13 @@ Quick start
 1. Create a `.env` in the project root with:
 
 ```env
-DISCORD_TOKEN=your_discord_bot_token
-LOG_CHANNEL_ID=123456789012345678
+# Discord bot token — get this from https://discord.com/developers/applications
+DISCORD_TOKEN=bot_token
+
+# ID of the channel where the bot should post voice logs
+LOG_CHANNEL_ID=text_channel_id
+
+# Optional: Port for the web server (default: 3000)
 PORT=3000 # optional
 ```
 
